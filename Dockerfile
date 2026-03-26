@@ -18,7 +18,7 @@
 # a default, when another distro was desired.
 ARG BASE_DISTRO=SPECIFY_ME
 
-FROM crops/yocto:$BASE_DISTRO-base
+FROM ejaaskel/yocto:$BASE_DISTRO-base
 
 USER root
 
